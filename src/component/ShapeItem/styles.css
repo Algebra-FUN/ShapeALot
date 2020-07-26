@@ -49,6 +49,7 @@
 
 .free-shape+div > svg{
     cursor: grabbing;
+    opacity: 1;
 }
 
 .free-shape+div:hover{
