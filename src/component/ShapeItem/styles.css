@@ -7,7 +7,7 @@
     }
     40%{
         transform: translate(0,0);
-        opacity: 1;
+        opacity: .8;
     }
     50%,70%,90%{
         transform: scale(1.5);
@@ -23,6 +23,8 @@
     justify-content: center;
     border: solid 2px;
     animation: enter-stage 3s ease-in-out;
+    opacity: .8;
+    color: dodgerblue;
 }
 
 .shape-circle{
@@ -39,9 +41,14 @@
 }
 
 .free-shape+div{
+    cursor: move;
     transition: opacity ease-in-out .6s;
     border:1px dotted rgba(30,90,233,0.5);
     opacity: 0;
+}
+
+.free-shape+div > svg{
+    cursor: grabbing;
 }
 
 .free-shape+div:hover{

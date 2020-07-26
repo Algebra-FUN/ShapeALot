@@ -1,0 +1,12 @@
+@import '../../App.css';
+
+.colorlens-list{
+    width: 300px;
+}
+
+.colorlens-colorbox{
+    border-radius: 10px;
+    width: 40px;
+    height:40px;
+    margin:15px;
+}
