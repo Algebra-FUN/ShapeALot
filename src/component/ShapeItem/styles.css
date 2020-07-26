@@ -38,12 +38,12 @@
     clip-path: inset(48% 0 48% 0);
 }
 
-.free-shape+div.bHtaob{
+.free-shape+div{
     transition: opacity ease-in-out .6s;
     border:1px dotted rgba(30,90,233,0.5);
     opacity: 0;
 }
 
-.free-shape+div.bHtaob:hover{
+.free-shape+div:hover{
     opacity: 1;
 }
