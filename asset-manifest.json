@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ShapeALot/static/css/main.86ec122e.chunk.css",
+    "main.css": "/ShapeALot/static/css/main.3c0b64fd.chunk.css",
     "main.js": "/ShapeALot/static/js/main.cefa60f0.chunk.js",
     "main.js.map": "/ShapeALot/static/js/main.cefa60f0.chunk.js.map",
     "runtime-main.js": "/ShapeALot/static/js/runtime-main.429cd5e0.js",
@@ -8,15 +8,15 @@
     "static/js/2.56a9ef24.chunk.js": "/ShapeALot/static/js/2.56a9ef24.chunk.js",
     "static/js/2.56a9ef24.chunk.js.map": "/ShapeALot/static/js/2.56a9ef24.chunk.js.map",
     "index.html": "/ShapeALot/index.html",
-    "precache-manifest.91bce7f0a2e473a6eb321df1dd474c0b.js": "/ShapeALot/precache-manifest.91bce7f0a2e473a6eb321df1dd474c0b.js",
+    "precache-manifest.b74415a703f0cc201784a63c8d49fcc8.js": "/ShapeALot/precache-manifest.b74415a703f0cc201784a63c8d49fcc8.js",
     "service-worker.js": "/ShapeALot/service-worker.js",
-    "static/css/main.86ec122e.chunk.css.map": "/ShapeALot/static/css/main.86ec122e.chunk.css.map",
+    "static/css/main.3c0b64fd.chunk.css.map": "/ShapeALot/static/css/main.3c0b64fd.chunk.css.map",
     "static/js/2.56a9ef24.chunk.js.LICENSE.txt": "/ShapeALot/static/js/2.56a9ef24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.429cd5e0.js",
     "static/js/2.56a9ef24.chunk.js",
-    "static/css/main.86ec122e.chunk.css",
+    "static/css/main.3c0b64fd.chunk.css",
     "static/js/main.cefa60f0.chunk.js"
   ]
 }
