@@ -45,7 +45,7 @@ class view extends React.Component {
 		}
 	render() {
 		return (
-			<Tooltip title="添加形状" aria-label="add" placement="left-end">
+			<Tooltip title="添加形状" aria-label="添加形状" placement="left-end">
 				<SpeedDial
 					ariaLabel='SpeedDial Component'
 					className='shape-add-speed_dial'

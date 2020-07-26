@@ -12,7 +12,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import BorderColorIcon from '@material-ui/icons/BorderColor'
 import FillColorIcon from '@material-ui/icons/FormatColorFill'
-import ColorLensIcon from '@material-ui/icons/ColorLens'
 import TextField from '@material-ui/core/TextField'
 
 @observer
