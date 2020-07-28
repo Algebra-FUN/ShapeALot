@@ -1,6 +1,8 @@
 # Shape A Lot
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Algebra-FUN/ShapeALot) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Algebra-FUN/ShapeALot) ![GitHub top language](https://img.shields.io/github/languages/top/Algebra-FUN/ShapeALot)![author](https://img.shields.io/badge/author-Algebra FUN-green)
 
+[中文版README](https://github.com/Algebra-FUN/ShapeALot/blob/master/README-zh.md)
 
 ## About
 

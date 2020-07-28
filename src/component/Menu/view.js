@@ -40,8 +40,8 @@ export default class extends React.Component {
 					</List>
 					<Divider />
 					<List className='menu-list'>
-						<ListItem button>
-							<ListItemIcon><InfoIcon /></ListItemIcon>
+						<ListItem button onClick={goto('https://github.com/Algebra-FUN/ShapeALot#about')}>
+							<ListItemIcon ><InfoIcon /></ListItemIcon>
 							<ListItemText primary='关于' />
 						</ListItem>
 						<ListItem button onClick={goto('https://gitee.com/Algebra-FUN/ShapeALot#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E')}>
