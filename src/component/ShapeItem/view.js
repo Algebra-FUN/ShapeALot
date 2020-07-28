@@ -63,7 +63,7 @@ class ShapeItem extends React.Component {
   }
   render() {
     const { position, shapeType, anchorEl, sid } = this.state
-    const { borderColor, fillColor } = Store.shapeList.find(it => it.sid == sid)
+    const { borderColor, fillColor } = Store.shapeList.find(it => it.sid === sid)
     const style = {
       borderColor: borderColor || defaultBorderColor,
       backgroundColor: fillColor || defaultFillColor
