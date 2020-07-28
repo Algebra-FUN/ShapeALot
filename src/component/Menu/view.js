@@ -44,11 +44,11 @@ export default class extends React.Component {
 							<ListItemIcon><InfoIcon /></ListItemIcon>
 							<ListItemText primary='关于' />
 						</ListItem>
-						<ListItem button>
+						<ListItem button onClick={goto('https://gitee.com/Algebra-FUN/ShapeALot#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E')}>
 							<ListItemIcon><HelpIcon /></ListItemIcon>
 							<ListItemText primary='帮助' />
 						</ListItem>
-						<ListItem button>
+						<ListItem button disabled>
 							<ListItemIcon><FavoriteIcon /></ListItemIcon>
 							<ListItemText primary='Like' />
 						</ListItem>
