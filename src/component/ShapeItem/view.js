@@ -19,7 +19,7 @@ class ShapeItem extends React.Component {
     super(props)
     const { shapeType, sid } = props
     this.state = {
-      position: {
+      position: props['position'] || {
         left: "37.5%",
         top: "37.5%",
         width: "72px",
@@ -51,11 +51,14 @@ class ShapeItem extends React.Component {
     this.closeMenu()
     window.lastShapeId++
     const self = Store.shapeList.find(it => it.sid === this.state.sid)
+    const {position} = this.state
+    position.rotation = '0deg'
     Store.shapeList.push({
       sid: window.lastShapeId,
-      shapeType:self.shapeType,
+      shapeType: self.shapeType,
       borderColor: self.borderColor,
-      fillColor: self.fillColor
+      fillColor: self.fillColor,
+      position
     })
   }
   render() {
@@ -90,7 +93,7 @@ class ShapeItem extends React.Component {
           onClose={this.closeMenu}
         >
           <MenuItem onClick={this.handleColorize}><ColorIcon />编辑颜色</MenuItem>
-          <MenuItem onClick={this.copy}><CopyIcon />样式克隆</MenuItem>
+          <MenuItem onClick={this.copy}><CopyIcon />形状克隆</MenuItem>
           <MenuItem onClick={this.handleDelete}><DeleteIcon />删除</MenuItem>
         </Menu>
       </>
