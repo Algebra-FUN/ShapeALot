@@ -6,7 +6,7 @@
 
 ## About
 
-This a simple and easy-to-use web application used to do simple geometry shape drawing. This Project originate from our `computer program language practise` course assignment.
+This is a simple and easy-to-use web application used to do simple geometry shape drawing. This Project originates from our `computer program language practise` course assignment.
 
 However, our teacher asked us to code this with `VC++`. It is tedious to write too many urgly code in `C++` as `C++` is good at operating performance but it is not a good choice for build GUI application. Fortunately,  when a student asked "if he can use other program language such as Python rather than C++", she said "you'd better try with C++ before trying with Python" which tactfully told us that it is ok to use other language. So I made this with `javascript`.
 
